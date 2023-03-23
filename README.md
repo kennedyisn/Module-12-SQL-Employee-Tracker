@@ -2,7 +2,7 @@
 
 ## Description
 
-This project was created to save time and streamline note taking by using Express.js. In doing so the notes created by the user are organized and well stored. In creating this project I learned more about the wide range of what can be created or made more dynamic using the back end. 
+This project was created to assist companies by streamlining the process for keeping track of their employees through a command line application. This application keeps track of employees, salaries, managers, and departments while allowing users to edit their database as their company changes.
 
 ## Table of Contents
 
@@ -14,22 +14,20 @@ This project was created to save time and streamline note taking by using Expres
 
 ## Installation
 
-There are no steps needed for installation. Simply click the heroku URL link and go to the webpage.
-
-https://kennedynotetaker.herokuapp.com/
+Before running this application you need to install the required dependecies listed in the package.json file under "Dependencies". This can be done by entering "npm install " followed by the dependency name.
 
 ## Usage
 
-Click the plus sign in the top right hand corner to create a note as shown in the image below. 
-![Start Screen](screenshots/starterscreen.png)
+After installing required dependencies, open the terminal and type in "node server.js" to run the application. You will then encounter a menu allowing you to view the departments, roles, or employees. You also have the option to add a new department, role, employee, or even update a current employee. When you click the exit button you will be exited out of the application.
+The link below shows a walkthrough video of the application to clear up any confusion.
 
-Type in the title for your note followed by the content in the section below labeled "note text". 
-![Created Note](screenshots/creatingnote.png)
-
-Clicking the save icon will save your notes and will populate in the section to the left.  
-![Finished Note](screenshots/creatednote.png)
+https://drive.google.com/file/d/1sWOf6j6YyWiPddwubUbxhhTjkIqMV5pk/view
 
 ## Credits
+
+https://www.codecademy.com/article/getting-user-input-in-node-js
+
+https://www.youtube.com/watch?v=7S_tz1z_5bA
 
 ## License
 
